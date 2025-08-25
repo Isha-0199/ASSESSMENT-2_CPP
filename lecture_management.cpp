@@ -2,7 +2,7 @@
 #include<string.h>
 using namespace std;
 
-class lecturer
+class Lecturer
 {	
 	private:
 		
@@ -47,7 +47,7 @@ class lecturer
 
 int main()
 {
-	lecturer lec[5];
+	Lecturer lec[5];
 	int choice,total=0;
 	
 	do
@@ -104,3 +104,4 @@ int main()
 	
 	return 0;
 }
+
