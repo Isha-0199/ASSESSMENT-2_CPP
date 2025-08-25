@@ -34,7 +34,7 @@ class Lecturer
 			cin >> lecturesCount ;
 		}
 	
-		void dispalyDetails()
+		void displayDetails()
 		{
 			cout << "\n---------------------------------";
 	        cout << "\n Lecturer Name       : " << lecturerName;
@@ -87,7 +87,7 @@ int main()
 				for (int i=0; i < total; i++)
 				{	
 					cout << "\nLecturer " << i + 1 << ":";
-					lec[i].dispalyDetails();
+					lec[i].displayDetails();
 				}
 			}
 		}
@@ -104,4 +104,5 @@ int main()
 	
 	return 0;
 }
+
 
